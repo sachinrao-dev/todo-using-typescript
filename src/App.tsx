@@ -1,12 +1,13 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import Form from './component/Form';
 
 function App() {
-  console.log("Hello eslint");
 
   return (
-    <div className="App">
-      <h1>this is app.js </h1>
-    </div>
+    <Fragment>
+      <h1>To Do</h1>
+      <Form />
+    </Fragment>
   );
 }
 
